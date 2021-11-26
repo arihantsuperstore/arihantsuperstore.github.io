@@ -1,4 +1,4 @@
-    @ media (min-width:481px) and (max-width: 767px) {
+   
         body
         {
         margin: 0;
@@ -9,6 +9,8 @@
         background-size: contain;
         color: white;
     }
+     @ media (min-width:481px) and (max-width: 767px) {
+         background-color: white;
 }
     
     .offer {
