@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background: black;
+    transition: 0.2s;
+    transform: translateY(-50%, -50%);
+}
+
+.inner-width {
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    margin: auto;
+}
+
+.navigation-menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(39, 35, 17, 0.479);
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.navigation-menu nav {
+    display: grid;
+}
+
+.navigation-menu li {
+    margin: 50px 0;
+    overflow: hidden;
+    text-decoration: double;
+}
+
+.navigation-menu a {
+    color: rgb(170, 206, 218);
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navigation-menu a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 10px;
+    background: grey;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.05s linear;
+    font-size-adjust: inherit;
+}
+
+.navigation-menu a:hover::before {
+    width: 100%;
+    transition: 0.3s linear;
+}
