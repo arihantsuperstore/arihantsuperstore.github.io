@@ -1,4 +1,6 @@
-    body {
+    @ media (min-width:481px) and (max-width: 767px) {
+        body
+        {
         margin: 0;
         padding: 0;
         background-color: rgb(226, 226, 226);
@@ -7,6 +9,7 @@
         background-size: contain;
         color: white;
     }
+}
     
     .offer {
         text-align: center;
