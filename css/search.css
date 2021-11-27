@@ -8,10 +8,7 @@
         color: white;
     }
 
-   @media only screen and (max-width:800px) {
-    .photo, .copy, .home, .link, .linkt, .map  {
-    width:100%;
-   }
+  
     
     .offer {
         text-align: center;
