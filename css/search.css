@@ -9,7 +9,7 @@
     }
 
    @media only screen and (max-width:800px) {
-    .offer, .offer-text, .container, .text1, .text2, .heading, .heading1, .heading2, .heading3, .heading4, .heading5, .heading6, .login, .search-box, .search-botton, .search-text, .photo, .copy, .home, .link, .linkt, .map  {
+    .photo, .copy, .home, .link, .linkt, .map  {
     width:100%;
    }
     
