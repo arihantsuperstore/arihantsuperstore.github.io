@@ -4,7 +4,9 @@
         background-color: rgb(226, 226, 226);
         background-repeat: no-repeat;
         background-blend-mode: normal;
-        background-size: contain;
+        background-size: cover;
+        background-positon: center;
+        background-attachment: fixed;
         color: white;
     }
     
